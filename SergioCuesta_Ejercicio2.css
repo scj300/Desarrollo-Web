@@ -1,0 +1,93 @@
+
+.container {
+  margin-top: 5%;
+  display:flex;
+}
+
+/* .padrino
+================= */
+
+.padrino {
+  margin-left: 3%;
+  display: inline-flex;
+  margin-right: auto;
+}
+
+.hbar {
+  margin-bottom: 10%;
+}
+
+
+.padrino span {
+  vertical-align: top;
+  margin-right: 1%;
+  text-decoration-style: solid;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* El títlo y descripción
+========================= */
+ .title {
+  float: right;
+  margin-right: 2%;
+  margin-left: 3%;
+  text-align: justify;
+}
+
+.href {
+  text-decoration: none;
+}
+
+
+/* Puntuación
+============== */
+.vbar p {
+  border: 10px light gray;
+  color: blue;
+  text-align: right;
+  margin-right: 20%;
+
+}
+
+hr {
+  margin-right: 1%;
+}
+
+.number {
+  margin-top: 7%;
+  position: absolute;
+  right: 50%;
+}
+
+.number p {
+  border: 5px;
+}
+
+/* Puntuación
+==================== */
+.box {
+  font-size: 28px;
+  background: #447CAD;
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: -1px;
+  width: 2em;
+  height: 1.2em;
+  margin: 0px 5px 0px auto;
+  border-radius: 0.3em
+  box-sizing: border-box;
+  border: 1px solid #447CAD;
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+.count {
+  letter-spacing: -.5px;
+  white-space: nowrap;
+  font-size: 18px;
+  text-align: center;
+  color: #888888;
+  padding: 2px 1px;
+}
