@@ -1,11 +1,14 @@
 
+/* Estilo principal de la página
+================================= */
 .container {
   margin-top: 5%;
   display:flex;
 }
 
-/* .padrino
-================= */
+
+/* .padrino (div)
+================================= */
 
 .padrino {
   margin-left: 3%;
@@ -13,11 +16,9 @@
   margin-right: auto;
 }
 
-.hbar {
-  margin-bottom: 10%;
-}
 
-
+/* Número de la película de la lista
+================================= */
 .padrino span {
   vertical-align: top;
   margin-right: 1%;
@@ -26,8 +27,17 @@
   font-size: 24px;
 }
 
+
+/* Barra vertical
+================================= */
+.hbar {
+  margin-bottom: 10%;
+}
+
+
+
 /* El títlo y descripción
-========================= */
+================================= */
  .title {
   float: right;
   margin-right: 2%;
@@ -35,25 +45,23 @@
   text-align: justify;
 }
 
+
+/* enlace del título de la película
+================================ */
 .href {
   text-decoration: none;
 }
 
 
-/* Puntuación
-============== */
-.vbar p {
-  border: 10px light gray;
-  color: blue;
-  text-align: right;
-  margin-right: 20%;
-
-}
-
+/* Línea horizontal
+============================== */
 hr {
   margin-right: 1%;
 }
 
+
+/* Contador de visualizaciones
+============================== */
 .number {
   margin-top: 7%;
   position: absolute;
@@ -63,6 +71,7 @@ hr {
 .number p {
   border: 5px;
 }
+
 
 /* Puntuación
 ==================== */
@@ -82,6 +91,7 @@ hr {
   margin-right: 5px;
 
 }
+
 
 .count {
   letter-spacing: -.5px;
