@@ -65,7 +65,7 @@ hr {
 .number {
   margin-top: 7%;
   position: absolute;
-  right: 50%;
+  right: 47%;
 }
 
 .number p {
@@ -76,20 +76,24 @@ hr {
 /* Puntuación
 ==================== */
 .box {
-  font-size: 28px;
+  font-size: 30px;
   background: #447CAD;
   text-align: center;
   color: #FFFFFF;
   letter-spacing: -1px;
   width: 2em;
-  height: 1.2em;
+  height: 1.8em;
   margin: 0px 5px 0px auto;
-  border-radius: 0.3em
+  border-radius: 16px;
   box-sizing: border-box;
   border: 1px solid #447CAD;
   display: inline-block;
   margin-right: 5px;
 
+}
+
+.calification {
+  margin-top: 12%;
 }
 
 
