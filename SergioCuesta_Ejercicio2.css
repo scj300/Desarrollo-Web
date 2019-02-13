@@ -101,3 +101,8 @@ hr {
   color: #888888;
   padding: 2px 1px;
 }
+
+.icon {
+  display: inline-flex;
+  margin-top: 10%;
+}
