@@ -1,4 +1,14 @@
 
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 /* Estilo principal de la página
 ================================= */
 .container {
@@ -28,10 +38,16 @@
 }
 
 
-/* Barra vertical
+/* Barra horizontal
 ================================= */
 .hbar {
   margin-bottom: 10%;
+  width: 100%;
+}
+
+.vbar {
+  position: relative;
+  right: -12%
 }
 
 
@@ -44,6 +60,17 @@
   margin-left: 3%;
   text-align: justify;
 }
+
+
+.clearfix:before, .clearfix:after {
+  content:'';
+  display: table;
+}
+
+.clearfix:after {
+clear:both
+}
+
 
 
 /* enlace del título de la película
@@ -63,9 +90,10 @@ hr {
 /* Contador de visualizaciones
 ============================== */
 .number {
-  margin-top: 7%;
-  position: absolute;
-  right: 47%;
+  margin-top: 10%;
+  /*position: absolute;*/
+  position: relative;
+  right: -17%;
 }
 
 .number p {
@@ -88,7 +116,7 @@ hr {
   box-sizing: border-box;
   border: 1px solid #447CAD;
   display: inline-block;
-  margin-right: 5px;
+
 
 }
 
